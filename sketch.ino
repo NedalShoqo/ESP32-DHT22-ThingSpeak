@@ -51,7 +51,7 @@ void loop() {
 
   if (isnan(temperature) || isnan(humidity)) {
     Serial.println("Failed to read DHT22!");
-    delay(25000);
+    delay(20000);
     return;
   }
 
@@ -85,5 +85,5 @@ void loop() {
   }
 
   // Wait 25 seconds
-  delay(25000);
+  delay(20000);
 }
